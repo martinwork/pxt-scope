@@ -1,17 +1,19 @@
 {
     "name": "pxt-scope",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "scope",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
+        "custom.ts",
+        "custom.cpp",
         "main.ts",
         "main.cpp",
-        "enums.d.ts"
+        "enums.d.ts",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"

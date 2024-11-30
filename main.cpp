@@ -6,10 +6,12 @@ enum MyEnum
     Two
 };
 
-namespace custom {
+
+namespace main {
     
     //%
     void foo( MyEnum e) {
         uBit.display.print(ManagedString((int)e));
     }
+
 }
